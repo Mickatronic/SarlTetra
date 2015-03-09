@@ -94,7 +94,7 @@
 											  <label class="col-sm-3 control-label" for="textinput">Confirmer le Mdp:</label>  
 											  <div class="col-sm-8 input-group">
 												<span class="input-group-addon"> <span class="glyphicon glyphicon-lock"></span></span>
-												<input id="Mdp1" name="Mdp1" placeholder="ex : " class="form-control input-md" type="password"/>
+												<input id="Mdp1" name="Mdp1" placeholder="ex :***** " class="form-control input-md" type="password"/>
 											  </div>
 											</div>
 										</div>

@@ -15,20 +15,7 @@
 					Menu
 				</div>
 				<div class="col-sm-10">
-					 <form class="form-horizontal">
-						<fieldset>
-
-						<!-- Form Name -->
-						<legend>Présentation de l'entreprise</legend>
-						<div class="jumbotron">
-							SARL TETRA-TEK, SARL au capital de 2 000€, a débuté son activité en janvier 2007
-						</div>
-
-
-
-
-					</fieldset>
-					</form>
+					AjouterDocument
 				</div>
 			</div>
 		</div>

@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
 		
       </button>
-      <a class="navbar-brand active" href="#">Accueil</a>
+      <a class="navbar-brand active" href="index.php">Accueil</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,23 +24,23 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="CreerClient.php">Créer un Client</a></li>
             <li><a href="ListerClients.php">Lister les clients</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Modifier un client</a></li>
             <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Supprimer un client</a></li>
             <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documents<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="AjouterDocuments.php">Ajouter un documents</a></li>
+            <li><a href="AjouterDocuments.php">Ajouter un document</a></li>
             <li><a href="ListerDocuments.php">Lister les documents</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Nom du document</a></li>
             <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Chemin</a></li>
             <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
 		<?php 
@@ -76,6 +76,15 @@
         <input type="submit" class="btn btn-primary btn-sm" value="Connexion"></input>
 		<a href="Inscription.php" class="btn btn-success btn-sm">Inscription</a>
       </form>
+	  <form class="form-horizontal">
+
+      </form>
+	  
+	 
+
+	  
+	  
+
 	  <?php
 	  }
      ?>

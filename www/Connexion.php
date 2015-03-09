@@ -3,7 +3,7 @@
 	$login = $_POST['login'];
 	$password = $_POST['password'];
 
-	if($login=="admin" && $password=="admin")
+	if($login=="admin" && $password=="admin007")
 	{
 		$_SESSION['Login'] = "Admin";
 		echo "Oo".$_SESSION['Login'];
