@@ -7,6 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+		
       </button>
       <a class="navbar-brand active" href="#">Accueil</a>
     </div>
@@ -21,7 +22,6 @@
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Clients<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-
             <li><a href="CreerClient.php">Créer un Client</a></li>
             <li><a href="ListerClients.php">Lister les clients</a></li>
             <li><a href="#">Something else here</a></li>

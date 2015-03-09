@@ -41,7 +41,6 @@
 									</div>
 									<div class="row">
 										<div class="form-horizontal">
-											
 											<div class="form-group">
 											  <label class="col-sm-2 control-label" for="textinput">Mdp:</label>  
 											  <div class="col-sm-8 input-group">
@@ -53,12 +52,11 @@
 									</div>							
 									<div class="row">
 										<div class="form-horizontal">
-											
 											<div class="form-group">
 											  <label class="col-sm-2 control-label" for="textinput">Email:</label>  
 											  <div class="col-sm-8 input-group">
 												<span class="input-group-addon"> <span class="glyphicon glyphicon-user"></span></span>
-												<input id="Email2" name="Email2" placeholder="ex : mhonvault" class="form-control input-md" type="text"/>
+												<input id="Email2" name="Email2" placeholder="ex : mhonvault@gmail.com" class="form-control input-md" type="text"/>
 											  </div>
 											</div>
 										</div>
