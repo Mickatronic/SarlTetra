@@ -36,8 +36,18 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="typedoc.php">Type document</a></li>
             <li><a href="creertypedoc.php">	Créer type document</a></li>
-            <li><a href="typedoc.php">Modifier type document</a></li>
-			<li><a href="typedoc.php">Supprimer type document</a></li>
+            <li><a href="modiftypedoc.php">Modifier type document</a></li>
+			<li><a href="suptypedoc.php">Supprimer type document</a></li>
+            <li><a href="index.php">Revenir à l'accueil</a></li>
+          </ul>
+        </li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Type Document<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="listertypedoc.php">Lister type document</a></li>
+            <li><a href="listefichier.php">Créer type document	</a></li>
+            <li><a href="modifiercivilite.php">Modifier type document</a></li>
+			 <li><a href="supprimercivilite.php">Supprimer type document</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
@@ -47,6 +57,15 @@
             <li><a href="listerclient.php">Clients</a></li>
             <li><a href="listefichier.php">	</a></li>
             <li><a href="typedoc.php">Nom du document</a></li>
+            <li><a href="index.php">Revenir à l'accueil</a></li>
+          </ul>
+        </li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Civilites<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="creercivilite.php">Creer civilite</a></li>
+            <li><a href="modifiercivilite.php">	Modifier civilite</a></li>
+            <li><a href="typedoc.php">Supprimer civilite</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
