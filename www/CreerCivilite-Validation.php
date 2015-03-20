@@ -12,7 +12,7 @@
 	$sql = "INSERT INTO civilites(Abreviation,Libelle) VALUES('".$Abreviation."','".$Libelle."');";
 
 	// on envoie la requête
-	$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysql_error());
+	$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysqli_error());
 
 	// on ferme la connexion à mysql
 	mysqli_close($db);
