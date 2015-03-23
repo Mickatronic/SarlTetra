@@ -31,10 +31,26 @@
 								</select>
 						    </div>
 					</div>
-						<!-- Button (Double) -->
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="Selectioner"></label>
 							<div class="col-md-8">
+							<?php
+								$db = mysqli_connect('localhost', 'root', '');
+
+								// on sélectionne la base
+								mysqli_select_db($db,'sarltetra');
+
+								// on crée la requête SQL
+								$sql = "SELECT * FROM Clients;";
+
+								// on envoie la requête
+								$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysql_error());
+
+							    while($data = mysqli_fetch_assoc($req))
+							    {
+									echo $data["Nom"]." ".$data["Prenom"]."</br>";
+								} 
+						    ?>														
 								<button id="Selectioner" name="Selectioner" class="btn btn-success"><a href="listefichier.php">selectioner</a></button>
 								<button id="" name="" class="btn btn-danger">annuler</button>
 							</div>

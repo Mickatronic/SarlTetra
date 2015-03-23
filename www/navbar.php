@@ -23,7 +23,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Clients<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="CreerClient.php">Créer un Client</a></li>
-            <li><a href="ListerClients.php">Lister les clients</a></li>
+            <li><a href="ListerClient.php">Lister les clients</a></li>
             <li><a href="modifierclient.php">Modifier un client</a></li>
             <li class="divider"></li>
             <li><a href="suppression.php">Supprimer un client</a></li>
@@ -34,10 +34,11 @@
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documents<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="typedoc.php">Type document</a></li>
-            <li><a href="creertypedoc.php">	Créer type document</a></li>
-            <li><a href="modiftypedoc.php">Modifier type document</a></li>
-			<li><a href="suptypedoc.php">Supprimer type document</a></li>
+            <li><a href=""></a></li>
+            <li><a href="">	Créer document</a></li>
+			<li><a href="">	Lister document</a></li>
+            <li><a href="">Modifier document</a></li>
+			<li><a href="">Supprimer document</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
