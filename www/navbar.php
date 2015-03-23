@@ -35,10 +35,10 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documents<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href=""></a></li>
-            <li><a href="">	Créer document</a></li>
-			<li><a href="">	Lister document</a></li>
-            <li><a href="">Modifier document</a></li>
-			<li><a href="">Supprimer document</a></li>
+            <li><a href="creer document.php">Créer document</a></li>
+			<li><a href="listerdocuments.php">	Lister document</a></li>
+            <li><a href="modifierdocuments.php">Modifier document</a></li>
+			<li><a href="supprimerdocuments.php">Supprimer document</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
