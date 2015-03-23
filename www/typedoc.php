@@ -16,12 +16,12 @@
 		<form class="form-horizontal">
 			<fieldset>
 				<div class="form-group">
-				  <label class="col-md-4 control-label" for="">Type Doc</label>
+				  <label class="col-md-4 control-label" for="">Type Document</label>
 				  <div class="col-md-4">
 					<select id="" name="" class="form-control">
 					  <option value="1">Devis</option>
 					  <option value="2">Facture</option>
-					  <option value="">Schema</option>
+					  <option value="">Schéma</option>
 					</select>
 				  </div>
 				</div>

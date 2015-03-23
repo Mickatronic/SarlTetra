@@ -13,15 +13,15 @@
 		<form class="form-horizontal">
 			<fieldset>
 				<div class="form-group">
-				  <label class="col-md-4 control-label" for="">civilite</label>
+				  <label class="col-md-4 control-label" for="">Civilité</label>
 				  <div class="col-md-4"> 
 					<label class="radio-inline" for="-0">
 					  <input type="radio" name="" id="-0" value="Mm" checked="checked">
-					  M
+					  Mr
 					</label> 
 					<label class="radio-inline" for="-1">
 					  <input type="radio" name="" id="-1" value="">
-					  Mm
+					  Mme
 					</label> 
 					<label class="radio-inline" for="-2">
 					  <input type="radio" name="" id="-2" value="">
@@ -32,7 +32,7 @@
 				<div class="form-group">
 				  <label class="col-md-4 control-label" for=""></label>
 				  <div class="col-md-4">
-					<button id="" name="" class="btn btn-primary">delete</button>
+					<button id="" name="" class="btn btn-primary">Delete</button>
 				  </div>
 				</div>
 			</fieldset>

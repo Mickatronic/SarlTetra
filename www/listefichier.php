@@ -11,7 +11,7 @@
 		?>
 		<div class="container">
 		<table class="table table-hover">
-				<caption> Titde du tableau </caption>
+				<caption> Titre du tableau </caption>
 				<colgroup>
 					<col width="150px;"/>
 					<col width="200px;"/>
@@ -21,7 +21,7 @@
 						<th>Idfichier</th>
 						<th>Nom Fichier</th>
 						<th>Lien QRcode</th>
-						<th>Nom Client</th>
+						<th>Nom Document</th>
 						<th>Type de document</th>
 					</tr>
 				</thead>
@@ -46,7 +46,7 @@
 						<td>1</td>
 						<td>monCHemin.pdf</td>
 						<td>MonCheminVersQRCode</td>
-						<td>SchÃ©ma</td>
+						<td>Schéma</td>
 							<td>Devis</td>
 					</tr>
 					

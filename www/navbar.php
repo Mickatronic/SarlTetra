@@ -34,10 +34,10 @@
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documents<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="typedoc.php">Type document</a></li>
-            <li><a href="creertypedoc.php">	Créer type document</a></li>
-            <li><a href="modiftypedoc.php">Modifier type document</a></li>
-			<li><a href="suptypedoc.php">Supprimer type document</a></li>
+            <li><a href="typedoc.php">Lister document</a></li>
+            <li><a href="creertypedoc.php">	Créer document</a></li>
+            <li><a href="modiftypedoc.php">Modifier document</a></li>
+			<li><a href="suptypedoc.php">Supprimer document</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
@@ -61,18 +61,18 @@
           </ul>
         </li>
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Civilites<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Civilités<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="creercivilite.php">Creer civilite</a></li>
-            <li><a href="modifiercivilite.php">	Modifier civilite</a></li>
-            <li><a href="supprimercivilite.php">Supprimer civilite</a></li>
+            <li><a href="creercivilite.php">Créer civilité</a></li>
+            <li><a href="modifiercivilite.php">	Modifier civilité</a></li>
+            <li><a href="supprimercivilite.php">Supprimer civilité</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
 		<?php 
 		}
 		?>
-        <li><a href="#">Contact <span class="sr-only">(current)</span></a></li> 
+        <li><a href="mecontacter.php">Contact <span class="sr-only">(current)</span></a></li> 
       </ul>
 	  
 	  <?php

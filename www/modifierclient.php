@@ -35,14 +35,14 @@
 													</div>
 													
 													<div class="form-group">
-														<label class="control-label" for="">Prenom:</label>
+														<label class="control-label" for="">Prénom:</label>
 															<div class="controls">
 																<input id="" name="" type="text" placeholder="" class="form-control input-small">
 															</div>
 													</div>
 														
 													<div class="form-group">
-														<label class="control-label" for="">civilite:</label>
+														<label class="control-label" for="">Civilité:</label>
 															<div class="controls">
 																<input id="" name="" type="text" placeholder="" class="form-control input-small">
 															</div>
@@ -73,7 +73,7 @@
 													</div>
 
 													<div class="form-group">
-														<label class="control-label" for="">Telephone:</label>
+														<label class="control-label" for="">Téléphone:</label>
 															<div class="controls">
 																<input id="" name="" type="text" placeholder="" class="form-control input-small">
 																
@@ -81,7 +81,7 @@
 													</div>
 
 													<div class="form-group">
-														<label class="control-label" for="">Email:</label>
+														<label class="control-label" for="">Mail:</label>
 															<div class="controls">
 																<input id="" name="" type="text" placeholder="" class="form-control input-small">
 																
@@ -90,7 +90,7 @@
 												</fieldset>
 												    <div class="form-group>
 															<div class="col-md-8">
-																<button id="" name="" class="btn btn-success">update</but>
+																<button id="" name="" class="btn btn-success">Update</but>
 															</div>
 													</div>
 											</form>

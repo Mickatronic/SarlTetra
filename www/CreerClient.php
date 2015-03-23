@@ -28,14 +28,14 @@
 													</div>
 													
 													<div class="form-group">
-														<label class="control-label" for="">Prenom:</label>
+														<label class="control-label" for="">Prénom:</label>
 															<div class="controls">
 																<input id="" name="" type="text" placeholder="" class="form-control input-small">
 															</div>
 													</div>
 														
 													<div class="form-group">
-														<label class="control-label" for="">civilite:</label>
+														<label class="control-label" for="">Civilité:</label>
 															<div class="controls">
 																<input id="" name="" type="text" placeholder="" class="form-control input-small">
 															</div>
@@ -66,7 +66,7 @@
 													</div>
 
 													<div class="form-group">
-														<label class="control-label" for="">Telephone:</label>
+														<label class="control-label" for="">Téléphone:</label>
 															<div class="controls">
 																<input id="" name="" type="text" placeholder="" class="form-control input-small">
 																
@@ -74,7 +74,7 @@
 													</div>
 
 													<div class="form-group">
-														<label class="control-label" for="">Email:</label>
+														<label class="control-label" for="">Mail:</label>
 															<div class="controls">
 																<input id="" name="" type="text" placeholder="" class="form-control input-small">
 																
@@ -82,10 +82,10 @@
 													</div>
 												</fieldset>
 												    <div class="form-group">
-														<label class="col-md-4 control-label" for="">CrÃ©er</label>
+														<label class="col-md-4 control-label" for="">Créer</label>
 															<div class="col-md-8">
-																<button id="" name="" class="btn btn-success">envoyer</button>
-																<button id="" name="" class="btn btn-danger">annuler</button>
+																<button id="" name="" class="btn btn-success">Envoyer</button>
+																<button id="" name="" class="btn btn-danger">Annuler</button>
 															</div>
 													</div>
 											</form>
