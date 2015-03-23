@@ -63,6 +63,7 @@
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Civilites<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
+			<li><a href="listercivilite.php">Lister civilite</a></li>
             <li><a href="creercivilite.php">Creer civilite</a></li>
             <li><a href="modifiercivilite.php">	Modifier civilite</a></li>
             <li><a href="supprimercivilite.php">Supprimer civilite</a></li>
