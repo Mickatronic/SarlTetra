@@ -13,14 +13,12 @@
 			<div class="row">
 				<div class="col-sm-6">
 					 <form class="form-horizontal">
-						<fieldset>
-						<!-- Form Name -->
+						<fieldset>						
 						<legend>Pour me contacter </legend>
 						<div class="jumbotron">
-							Si vous voulez me contacter:</br>
-							Appelez-moi au 0627423611 </br>
-							ou par mail au contact@sarltetra.com</br>
-							Merci de la visite.</br>
+							<b>Appelez-moi au:<b> 0627423611 </br>
+							<b>ou par mail au:<b> contact@sarltetra.com</br>
+							Merci de la visite.
 							</div>
 						<img src="images.jpg" align="left">
 					</fieldset>

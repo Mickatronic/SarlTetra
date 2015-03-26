@@ -1,19 +1,17 @@
 <?php
 	// Déclaration variable
-	$NomFichier = "";
-	$LienQRcode="";
-	$NomDocument="";
-	$Typededocument="";
-	$NomFichier = $_GET['NomFichier'];
-	$LienQRcode = $_GET['LienQRcode'];
-	$NomDocument = $_GET['NomDocument'];
-	$Typededocument = $_GET['Typededocument'];
+	$Nom = "";
+	$Chemin="";
+	$TypeDoc="";
+	$Nom= $_GET['nom'];
+	$Chemin = $_GET['Chemin'];
+	$TypeDoc = $_GET['TypeDoc'];
 	$db = mysqli_connect('localhost', 'root', '');
 	// Récupération des données
 	mysqli_select_db($db,'sarltetra');
 	// Traitement
 	
-	$sql = "INSERT INTO typedocuments() VALUES();";
+	$sql = "INSERT INTO documents(Nom,Chemin,IdTypeDocuments) VALUES('".$Nom."','".$Chemin."','".$TypeDoc."');";
 	
 	ECHO $sql;
 	// on envoie la requête

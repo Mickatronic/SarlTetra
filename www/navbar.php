@@ -25,9 +25,7 @@
             <li><a href="CreerClient.php">Créer un Client</a></li>
             <li><a href="ListerClients.php">Lister les clients</a></li>
             <li><a href="modifierclient.php">Modifier un client</a></li>
-            <li class="divider"></li>
             <li><a href="suppression.php">Supprimer un client</a></li>
-            <li class="divider"></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
