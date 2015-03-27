@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 	<head>
 		<?php 
 		include 'includes.html';
@@ -32,7 +32,7 @@
 													</div>
 														
 													<div class="form-group">
-														<label class="control-label" for="">civilite:</label>
+														<label class="control-label" for="">IdCivilite:</label>
 															<div class="controls">
 																<input id="" name="civilite" type="text" placeholder="" class="form-control input-small">
 															</div>
