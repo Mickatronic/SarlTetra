@@ -10,10 +10,7 @@
 			include 'navbar.php';
 		?>
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-2">
-					Menu
-				</div>
+			<div class="row">				
 				<div class="col-sm-10">
 					<div class="row">
 										<div class="col-sm-2">

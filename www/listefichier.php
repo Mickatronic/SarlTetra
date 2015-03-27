@@ -35,7 +35,7 @@
 					</tr>
 					
 					<tr>
-						<td>1</td>
+						<td>2</td>
 						<td>monCHemin.pdf</td>
 						<td>MonCheminVersQRCode</td>
 						<td>Facture</td>
@@ -43,7 +43,7 @@
 					</tr>
 					
 					<tr>
-						<td>1</td>
+						<td>3</td>
 						<td>monCHemin.pdf</td>
 						<td>MonCheminVersQRCode</td>
 						<td>Schéma</td>
