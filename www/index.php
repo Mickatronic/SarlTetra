@@ -1,5 +1,4 @@
 <html>
-		<link rel="stylesheet" type="text/css" href="style.css">
 	<head>
 		<?php 
 			include 'includes.html';
@@ -18,18 +17,14 @@
 						<!-- Form Name -->
 						<legend>A propos </legend>
 						<div class="jumbotron">
-							<div class="alert alert-danger" role="alert">SARL TETRA</div>
-							
+							SARL TETRA, est une entreprise du nord de la france</br>
+							et qu à pour secteur d'activité l'élaboraton et la mise</br>
+							en place d'Armoire Electrique.</br>
+							La SARL TETRA,au capital de 2 000€, a débuté son activité en janvier 2007</br>
+							Elle aimerait concurencier les Entreprise du secteur en proposant à</br>
+							ces clients le téléchargement de l'Armoire à travers un QRcode.
 						</div>
-						<div class="jumbotron">
-							SARL TETRA, est une entreprise du nord de la France</br>
-							et qui a pour secteur d'activité l'élaboraton et la mise</br>
-							en place d'armoire électrique.</br>
-							La SARL TETRA,au capital de 2 000€, a débuté son activité en janvier 2007.</br>
-							Elle aimerait concurrencer les entreprises du secteur en proposant à</br>
-							ses clients le téléchargement de l'armoire à travers un QR Code.
-							<img src="images.jpg" align="left">
-						</div>						
+						<img src="images.jpg" align="left">
 					</fieldset>
 					</form>
 				</div>

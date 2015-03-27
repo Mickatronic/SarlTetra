@@ -10,38 +10,38 @@
 			include 'navbar.php';
 		?>
 		<div class="container">
-			<div class="row">				
+			<div class="row">			
 				<div class="col-sm-10">
 					<div class="row">
 										<div class="col-sm-2">
-											<form class="form-horizontal">
+											<form method="GET" action="CreerClient-Validation.php" class="form-horizontal">
 												<fieldset>
 													
 													<div class="form-group">
 														<label class="control-label" for="">Nom:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="" name="nom" type="text" placeholder="" class="form-control input-small">
 															</div>
 													</div>
 													
 													<div class="form-group">
-														<label class="control-label" for="">Prénom:</label>
+														<label class="control-label" for="">Prenom:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="" name="prenom" type="text" placeholder="" class="form-control input-small">
 															</div>
 													</div>
 														
 													<div class="form-group">
-														<label class="control-label" for="">Civilité:</label>
+														<label class="control-label" for="">civilite:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="" name="civilite" type="text" placeholder="" class="form-control input-small">
 															</div>
 													</div>
 
 													<div class="form-group">
 														<label class="control-label" for="">Age:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="" name="Age" type="text" placeholder="" class="form-control input-small">
 															
 															</div>
 													</div>
@@ -49,7 +49,7 @@
 													<div class="form-group">
 														<label class="control-label" for="">Ville:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="" name="Ville" type="text" placeholder="" class="form-control input-small">
 																
 															</div>
 													</div>
@@ -57,32 +57,32 @@
 													<div class="form-group">
 														<label class="control-label" for="">CP:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="" name="CP" type="text" placeholder="" class="form-control input-small">
 																
 															</div>
 													</div>
 
 													<div class="form-group">
-														<label class="control-label" for="">Téléphone:</label>
+														<label class="control-label" for="">Tel:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="" name="Tel" type="text" placeholder="" class="form-control input-small">
 																
 															</div>
 													</div>
 
 													<div class="form-group">
-														<label class="control-label" for="">Mail:</label>
+														<label class="control-label" for="">Email:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="" name="Email" type="text" placeholder="" class="form-control input-small">
 																
 															</div>
 													</div>
 												</fieldset>
 												    <div class="form-group">
-														<label class="col-md-4 control-label" for="">Créer</label>
+														<label class="col-md-4 control-label" for="">CrÃ©er</label>
 															<div class="col-md-8">
-																<button id="" name="" class="btn btn-success">Envoyer</button>
-																<button id="" name="" class="btn btn-danger">Annuler</button>
+																<input type="submit" id="" name="envoyer" value="envoyer" class="btn btn-success"/>
+																<button id="" name="" class="btn btn-danger">annuler</button>
 															</div>
 													</div>
 											</form>

@@ -25,7 +25,7 @@
 					  </div>
 					</div>
 					<div class="form-group">
-					  <label class="col-md-4 control-label" for="">Type Document</label>
+					  <label class="col-md-4 control-label" for="">Type Doc</label>
 					  <div class="col-md-4">
 						<select id="" name="" class="form-control">
 						</select>
@@ -34,7 +34,7 @@
 					<div class="form-group">
 					  <label class="col-md-4 control-label" for=""></label>
 					  <div class="col-md-4">
-						<button id="" name="" class="btn btn-primary">Delete</button>
+						<button id="" name="" class="btn btn-primary">delete</button>
 					  </div>
 					</div>
 				</fieldset>

@@ -26,14 +26,14 @@
 					</div>
 				</div>
 				<div class="form-group">
-				  <label class="col-md-4 control-label" for="">Type Document</label>
+				  <label class="col-md-4 control-label" for="">Type Doc</label>
 				  <div class="col-md-4">
 					<select id="" name="" class="form-control">
 					</select>
 				  </div>
 				</div>
 				<div class="form-group">
-				  <label class="col-md-4 control-label" for="">Parcourir</label>
+				  <label class="col-md-4 control-label" for="">parcourir</label>
 				  <div class="col-md-4">
 					<input id="" name="" class="input-file" type="file">
 				  </div>

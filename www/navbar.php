@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -23,19 +23,22 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Clients<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="CreerClient.php">Créer un Client</a></li>
-            <li><a href="ListerClients.php">Lister les clients</a></li>
+            <li><a href="ListerClient.php">Lister les clients</a></li>
             <li><a href="modifierclient.php">Modifier un client</a></li>
+            <li class="divider"></li>
             <li><a href="suppression.php">Supprimer un client</a></li>
+            <li class="divider"></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documents<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="typedoc.php">Lister document</a></li>
-            <li><a href="creertypedoc.php">	Créer document</a></li>
-            <li><a href="modiftypedoc.php">Modifier document</a></li>
-			<li><a href="suptypedoc.php">Supprimer document</a></li>
+            <li><a href=""></a></li>
+            <li><a href="creer document.php">Créer document</a></li>
+			<li><a href="listerdocuments.php">	Lister document</a></li>
+            <li><a href="modifierdocuments.php">Modifier document</a></li>
+			<li><a href="supprimerdocuments.php">Supprimer document</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
@@ -59,18 +62,19 @@
           </ul>
         </li>
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Civilités<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Civilites<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="creercivilite.php">Créer civilité</a></li>
-            <li><a href="modifiercivilite.php">	Modifier civilité</a></li>
-            <li><a href="supprimercivilite.php">Supprimer civilité</a></li>
+			<li><a href="listercivilite.php">Lister civilite</a></li>
+            <li><a href="creercivilite.php">Creer civilite</a></li>
+            <li><a href="modifiercivilite.php">	Modifier civilite</a></li>
+            <li><a href="supprimercivilite.php">Supprimer civilite</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
 		<?php 
 		}
 		?>
-        <li><a href="mecontacter.php">Contact <span class="sr-only">(current)</span></a></li> 
+        <li><a href="#">Contact <span class="sr-only">(current)</span></a></li> 
       </ul>
 	  
 	  <?php

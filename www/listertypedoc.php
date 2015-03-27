@@ -13,32 +13,27 @@
 			<form class="form-horizontal">
 				<fieldset>
 				<div class="form-group">
-				  <label class="col-md-4 control-label" for="">Lister Type Document</label>
+				  <label class="col-md-4 control-label" for="">Lister Type Doc</label>
 				  <div class="col-md-4">
-				  <?php
-								$db = mysqli_connect('localhost', 'root', '');
-
-								// on sélectionne la base
-								mysqli_select_db($db,'sarltetra');
-
-								// on crée la requête SQL
-								$sql = "SELECT * FROM typedocuments;";
-
-								// on envoie la requête
-								$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysql_error());
-
-							    while($data = mysqli_fetch_assoc($req))
-							    {
-									echo $data["Nom"]."</br>";
-								} 
-						    ?>	
-					<P> Facture<br/>
-					    Devis<br/>
-						Schéma</p>
+					<select id="" name="" class="form-control">
+					  <option value="1">Facture</option>
+					  <option value="2">Devis</option>
+					  <option value="">Schema</option>
+					  <option value="">Autre</option>
 					</select>
 				  </div>
 				</div>
 				</fieldset>
+				<form class="form-horizontal">
+					<fieldset>
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for=""></label>
+					  <div class="col-md-4">
+						<button id="" name="" class="btn btn-primary">selectionner</button>
+					  </div>
+					</div>
+					</fieldset>
+					</form>
 			</form>
      </body>
 </html>
