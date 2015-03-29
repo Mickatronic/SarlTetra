@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -46,7 +46,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Type Document<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="listertypedoc.php">Lister type document</a></li>
-            <li><a href="listefichier.php">Créer type document	</a></li>
+            <li><a href="CreerTypeDoc.php">Créer type document	</a></li>
             <li><a href="modiftypedoc.php">Modifier type document</a></li>
 			 <li><a href="suptypedoc.php">Supprimer type document</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>

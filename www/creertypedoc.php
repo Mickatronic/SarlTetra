@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<?php 
-			include 'includes.html';
+		include 'includes.html';
 		?>
 	</head>
 	<body>
@@ -10,40 +10,43 @@
 			include 'navbar.php';
 		?>
 		<div class="container">
-		
-		<form class="form-horizontal">
-			<fieldset>
-				<div class="form-group">
-					 <label class="col-md-4 control-label" for="">Nom</label>  
-					 <div class="col-md-4">
-						<input id="" name="" type="text" placeholder="" class="form-control input-md">
-					 </div>
+			<div class="row">			
+				<div class="col-sm-10">
+					<div class="row">
+					<form method="GET" action="CreerTypeDoc-Validation.php" class="form-horizontal">
+						<div class="form-horizontal">
+							<fieldset>							
+								<div class="form-group">
+									  <label class="col-md-4 control-label" for="">Libelle</label>  
+									  <div class="col-md-4">
+									  <input id="Libelle" name="" type="text" placeholder="" class="form-control input-md">								
+									  </div>
+								</div>
+							</fieldset>
+						</div>
+						<div class="form-horizontal">
+							<fieldset>						
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="">Id</label>  
+								  <div class="col-md-4">
+								  <input id="Id" name="" type="text" placeholder="" class="form-control input-md">								
+								  </div>
+								</div>
+							</fieldset>
+						</div>
+
+						<div class="form-horizontal">
+							<fieldset>						
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for=""></label>
+								  <div class="col-md-4">
+								  <input type="submit" id="" name="envoyer" value="envoyer" class="btn btn-success"/>
+								  </div>
+								</div>
+							</fieldset>
+						</div>
+					</form>
 				</div>
-				<div class="form-group">
-					<label class="col-md-4 control-label" for="">Chemin</label>  
-					<div class="col-md-4">
-					    <input id="" name="" type="text" placeholder="" class="form-control input-md">
-					</div>
-				</div>
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="">Type Doc</label>
-				  <div class="col-md-4">
-					<select id="" name="" class="form-control">
-					</select>
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="">parcourir</label>
-				  <div class="col-md-4">
-					<input id="" name="" class="input-file" type="file">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="singlebutton"></label>
-				  <div class="col-md-4">
-					<button id="singlebutton" name="singlebutton" class="btn btn-primary">Ajouter</button>
-				  </div>
-				</div>
-			</fieldset>
-		</form>
-</html>
+			</div>
+		</div>
+	</div>

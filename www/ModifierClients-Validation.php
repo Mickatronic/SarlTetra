@@ -2,26 +2,27 @@
 	// Déclaration variable
 	$nom = "";
 	$prenom="";
-	$civilite="";
+	$IdCivilite="";
 	$Age="";
 	$Ville="";
 	$CP="";
 	$Tel="";
-	$Email="";
+	$Mail="";
 	$nom= $_GET['nom'];
 	$prenom = $_GET['prenom'];
-	$civilite = $_GET['civilite'];
+	$IdCivilite = $_GET['civilite'];
 	$Age = $_GET['Age'];
 	$Ville = $_GET['Ville'];
 	$CP = $_GET['CP'];
 	$Tel= $_GET['Tel'];
-	$Email = $_GET['Email'];
+	$Mail = $_GET['Mail'];
 	$db = mysqli_connect('localhost', 'root', '');
 	// Récupération des données
 	mysqli_select_db($db,'sarltetra');
 	// Traitement
-	$sql = "UPDATE clients(nom,prenom,idcivilite,Age,Ville,CP,Telephone,mail) VALUES('".$nom."','".$prenom."','".$civilite."','".$Age."','".$Ville."','".$CP."','".$Tel."','".$Email."');";
-	
+	$sql = "UPDATE clients
+	SET Nom='Tom'
+	WHERE Id='12'
 	ECHO $sql;
 	// on envoie la requête
 	$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysqli_error($db));

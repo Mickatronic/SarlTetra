@@ -1,17 +1,14 @@
 <?php
 	// Déclaration variable
-	$Nom = "";
-	$Chemin="";
-	$TypeDoc="";
-	$Nom= $_GET['nom'];
-	$Chemin = $_GET['Chemin'];
-	$TypeDoc = $_GET['TypeDoc'];
+	$Libelle = "";
+	$Id = "";
+	$Libelle= $_GET['Libelle'];
+	$Id= $_GET['Id'];
 	$db = mysqli_connect('localhost', 'root', '');
 	// Récupération des données
 	mysqli_select_db($db,'sarltetra');
 	// Traitement
-	
-	$sql = "INSERT INTO documents(Nom,Chemin,IdTypeDocuments) VALUES('".$Nom."','".$Chemin."','".$TypeDoc."');";
+	$sql = "INSERT INTO typedocuments(Libelle,Id) VALUES('".$Libelle."','".$Id."');";
 	
 	ECHO $sql;
 	// on envoie la requête

@@ -13,7 +13,7 @@
 			<div class="row">
 				<div class="col-sm-10">
 					<div class="row">
-
+	<form method="GET" action="ModifierClients-Validation.php" class="form-horizontal">
 		<div class="container">
            <div class="row">
                 <legend>Formulaire de modification</legend>
@@ -30,28 +30,28 @@
 													<div class="form-group">
 														<label class="control-label" for="">Nom:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="Nom" name="" type="text" placeholder="" class="form-control input-small">
 															</div>
 													</div>
 													
 													<div class="form-group">
 														<label class="control-label" for="">Prenom:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="Prenom" name="" type="text" placeholder="" class="form-control input-small">
 															</div>
 													</div>
 														
 													<div class="form-group">
-														<label class="control-label" for="">civilite:</label>
+														<label class="control-label" for="">IdCivilite:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="IdCivilite" name="" type="text" placeholder="" class="form-control input-small">
 															</div>
 													</div>
 
 													<div class="form-group">
 														<label class="control-label" for="">Age:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="Age" name="" type="text" placeholder="" class="form-control input-small">
 															
 															</div>
 													</div>
@@ -59,7 +59,7 @@
 													<div class="form-group">
 														<label class="control-label" for="">Ville:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="Ville" name="" type="text" placeholder="" class="form-control input-small">
 																
 															</div>
 													</div>
@@ -67,7 +67,7 @@
 													<div class="form-group">
 														<label class="control-label" for="">CP:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id=CP"" name="" type="text" placeholder="" class="form-control input-small">
 																
 															</div>
 													</div>
@@ -75,22 +75,23 @@
 													<div class="form-group">
 														<label class="control-label" for="">Telephone:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="Telephone" name="" type="text" placeholder="" class="form-control input-small">
 																
 															</div>
 													</div>
 
 													<div class="form-group">
-														<label class="control-label" for="">Email:</label>
+														<label class="control-label" for="">Mail:</label>
 															<div class="controls">
-																<input id="" name="" type="text" placeholder="" class="form-control input-small">
+																<input id="Mail" name="" type="text" placeholder="" class="form-control input-small">
 																
 															</div>
 													</div>
 												</fieldset>
 												    <div class="form-group>
 															<div class="col-md-8">
-																<button id="" name="" class="btn btn-success">update</but>
+															    <input type="submit" id="" name="envoyer" value="envoyer" class="btn btn-success"/>
+																<button id="" name="" class="btn btn-success">update</button>
 															</div>
 													</div>
 											</form>
@@ -103,6 +104,7 @@
 				</fieldset>
 			</div>
 		</div>
+	</form>
 	</body>
 	<footer>
 	</footer>
