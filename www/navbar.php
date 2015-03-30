@@ -74,7 +74,7 @@
 		<?php 
 		}
 		?>
-        <li><a href="#">Contact <span class="sr-only">(current)</span></a></li> 
+        <li><a href="mecontacter.php">Contact <span class="sr-only">(current)</span></a></li> 
       </ul>
 	  
 	  <?php
