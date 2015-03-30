@@ -20,7 +20,9 @@
 	// Récupération des données
 	mysqli_select_db($db,'sarltetra');
 	// Traitement
-	$sql = "UPDATE clients(nom,prenom,idcivilite,Age,Ville,CP,Telephone,mail) VALUES('".$nom."','".$prenom."','".$civilite."','".$Age."','".$Ville."','".$CP."','".$Tel."','".$Email."');";
+	$sql = "UPDATE clients
+	(nom,prenom,idcivilite,Age,Ville,CP,Telephone,mail) 
+	VALUES('".$nom."','".$prenom."','".$civilite."','".$Age."','".$Ville."','".$CP."','".$Tel."','".$Email."');";
 	
 	ECHO $sql;
 	// on envoie la requête
