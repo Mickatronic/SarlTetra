@@ -11,24 +11,48 @@
 		?>
 		<div class="container">
 			<div class="row">
-	<body>
-		<form class="form-horizontal">
-			<fieldset>
-				<!-- Form Name -->
-				<!-- Select Basic -->
-					<div class="form-group">
-						<label class="col-md-4 control-label" for="">Lister tout les documents</label>
+				<div class="form-group">
+					<div class="row">
+						<label class="col-md-4 control-label" for="">Lister tout les clients</label>
 						    <div class="col-md-4">
-								<select id="" name="" class="form-control">
-									<option value="1">Image</option>
-									<option value="2">Pdf</option>
-									<option value="">Shema</option>							  								 
-								</select>
+								<select id="ClientId" name="ClientId" class="form-control">
+									<?php
+										$db = mysqli_connect('localhost', 'root', '');
+
+										// on sélectionne la base
+										mysqli_select_db($db,'sarltetra');
+
+										// on crée la requête SQL
+										$sql = "SELECT * FROM Clients";
+
+										// on envoie la requête
+										$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysqli_error());
+
+										while($data = mysqli_fetch_assoc($req))
+										{
+											echo "<option value=\"".$data["Id"]."\">".$data["Nom"]." ".$data["Prenom"]."</option>";
+										} 
+								  
+										// on ferme la connexion à mysql
+										mysqli_close($db);
+									?>
+						</select>
 						    </div>
 					</div>
-					<div class="form-group">
-						<label class="col-md-4 control-label" for="Selectioner"></label>
-							<div class="col-md-8">
+							<div class="row">
+							<div class="panel panel-default">
+								  <!-- Default panel contents -->
+								  <div class="panel-heading">Liste de documents</div>
+
+								  <!-- Table -->
+								  <table class="table">
+									<tr>
+										<td> Nom </td>
+										<td> CheminQRcode</td>
+										<td> CheminDoc</td>
+										<td> typesdocuments</td>
+										
+									</tr>								  							
 							<?php
 								$db = mysqli_connect('localhost', 'root', '');
 
@@ -36,20 +60,34 @@
 								mysqli_select_db($db,'sarltetra');
 
 								// on crée la requête SQL
-								$sql = "SELECT * FROM documents;";
-
+								$sql = "SELECT c.Nom,d.CheminQRcode,td.Libelle,d.CheminDoc
+									   FROM Clients c, clientsdocuments cd, 
+										documents d, typedocuments td
+										WHERE d.id = cd.idDocument
+										AND cd.idClient = c.id
+										AND td.id = d.IdTypeDocuments";
+										
 								// on envoie la requête
-								$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysql_error());
+								$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysqli_error($db));
 
 							    while($data = mysqli_fetch_assoc($req))
 							    {
-									echo $data["Nom"]."</br>";
+									echo "<tr>";
+									echo "<td>".$data["Nom"]."</td>";
+									echo "<td>".$data["CheminQRcode"]." </td>";
+									echo "<td>".$data["CheminDoc"]." </td>";
+									echo "<td>".$data["Libelle"]." </td>";
+                                    echo "</tr>";									
 								} 
 						    ?>														
-								<button id="Selectioner" name="Selectioner" class="btn btn-success"><a href="listefichier.php">Ajouter</a></button>								
-							</div>
-					</div>
-			</fieldset>
-		</form>
+								
+								</table>
+								
+								</div>
+								<button id="Selectioner" name="Selectioner" class="btn btn-success"><a href="listefichier.php">Ajouter</a></button>	
+								</div>
+				</div>				
+			</div>
+		</div>
 	</body>
 </html>

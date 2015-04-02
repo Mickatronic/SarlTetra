@@ -51,23 +51,23 @@
 					QRcode::png($urlQRCode,$cheminQrCode);
 					
 					// Record en base
-					$link = mysql_connect("localhost", "root", "");
-					mysql_select_db("sarltetra", $link) or die(mysql_error());
+					$link = mysqli_connect("localhost", "root", "");
+					mysqli_select_db( $link, "sarltetra") or die(mysqli_error($link));
 				
 
 					$query = "INSERT INTO Documents(IdTypeDocuments,CheminDoc,CheminQRCode) VALUES ($TypeDocumentId,'$target_dir','$cheminQrCode')";
 				
-					$result = mysql_query($query, $link) or die($query . " - " . mysql_error());
+					$result = mysqli_query( $link, $query) or die($query . " - " . mysqli_error($link));
 					if($result ==1)
 					{
 						$query = "SELECT Id FROM Documents WHERE CheminDoc = '$target_dir';";
-						$result = mysql_query($query, $link) or die($query . " - " . mysql_error());
-						$array = mysql_fetch_assoc($result);
+						$result = mysqli_query( $link, $query) or die($query . " - " . mysqli_error($link));
+						$array = mysqli_fetch_assoc($result);
 						$DocumentId = $array["Id"];
 						echo $DocumentId;
 						
 						$query = "INSERT INTO ClientsDocuments(IdDocument,IdClient,date) VALUES ($DocumentId,$ClientId,NOW())";
-						$result = mysql_query($query, $link) or die($query . " - " . mysql_error());
+						$result = mysqli_query( $link, $query) or die($query . " - " . mysqli_error($link));
 						
 						if($result ==1)
 						{
