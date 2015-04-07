@@ -31,7 +31,7 @@
 						$sql = "SELECT * FROM Civilites;";
 
 						// on envoie la requête
-						$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysql_error());
+						$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysqli_error());
 					
 					  while($data = mysqli_fetch_assoc($req))
 					  {

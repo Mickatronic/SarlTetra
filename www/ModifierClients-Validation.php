@@ -21,8 +21,14 @@
 	mysqli_select_db($db,'sarltetra');
 	// Traitement
 	$sql = "UPDATE clients
-	SET Nom='Tom'
-	WHERE Id='12'
+	SET Nom='".$nom."'
+	AND prenom ='".$prenom."'
+	AND IdCivilite ='".$IdCivilite."'
+	AND Age ='".$Age."'
+	AND Ville ='".$Ville."'
+	AND Cp='".$Cp."'
+	AND Tel='".$Tel."'
+	AND Mail='".$Mail."';	
 	ECHO $sql;
 	// on envoie la requête
 	$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysqli_error($db));

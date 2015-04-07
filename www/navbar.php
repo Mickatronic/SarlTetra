@@ -53,15 +53,6 @@
           </ul>
         </li>
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Créer Facture<span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="listerclient.php">Clients</a></li>
-            <li><a href="listefichier.php">	</a></li>
-            <li><a href="typedoc.php">Nom du document</a></li>
-            <li><a href="index.php">Revenir à l'accueil</a></li>
-          </ul>
-        </li>
-		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Civilites<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
 			<li><a href="listercivilite.php">Lister civilite</a></li>

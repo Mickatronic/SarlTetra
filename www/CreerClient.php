@@ -55,6 +55,13 @@
 													</div>
 
 													<div class="form-group">
+													  <label class="control-label" for="">Adresse</label>  
+													  <div class="controls">
+													  <input id="" name="Adresse" type="text" placeholder=" " class="form-control input-md">
+														
+													  </div>
+													</div>
+													<div class="form-group">
 														<label class="control-label" for="">CP:</label>
 															<div class="controls">
 																<input id="" name="CP" type="text" placeholder="" class="form-control input-small">
