@@ -13,7 +13,7 @@
 		<div class="form-horizontal">
 			<fieldset>
 				<div class="form-group">
-				<form method="GET" action="CreerCivilite-Validation.php" class="col-sm-12 jumbotron">
+				<form method="GET" action="CreerCivilites-Validation.php" class="col-sm-12 jumbotron">
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="row">
