@@ -47,8 +47,8 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="listertypedoc.php">Lister type document</a></li>
             <li><a href="CreerTypeDoc.php">Créer type document	</a></li>
-            <li><a href="modiftypedoc.php">Modifier type document</a></li>
-			 <li><a href="suptypedoc.php">Supprimer type document</a></li>
+            <li><a href="modifierTypeDoc.php">Modifier type document</a></li>
+			 <li><a href="">Supprimer type document</a></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>
         </li>
