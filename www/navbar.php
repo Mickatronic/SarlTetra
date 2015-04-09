@@ -24,9 +24,9 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="CreerClient.php">Créer un Client</a></li>
             <li><a href="ListerClient.php">Lister les clients</a></li>
-            <li><a href="modifierclient.php">Modifier un client</a></li>
+            <li><a href="modifierclients.php">Modifier un client</a></li>
             <li class="divider"></li>
-            <li><a href="suppression.php">Supprimer un client</a></li>
+            <li><a href="supprimerClients.php">Supprimer un client</a></li>
             <li class="divider"></li>
             <li><a href="index.php">Revenir à l'accueil</a></li>
           </ul>

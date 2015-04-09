@@ -11,51 +11,38 @@
 		?>
 		<div class="container">
 			<div class="row">
-	<body>
-		<form class="form-horizontal">
-			<fieldset>
-				<!-- Form Name -->
-				<!-- Select Basic -->
-					<div class="form-group">
-						<label class="col-md-4 control-label" for="">Lister tout les clients</label>
-						    <div class="col-md-4">
-								<select id="" name="" class="form-control">
-									<option value="1">Laetitia</option>
-									<option value="2">Benedicte</option>
-									<option value="">Natacha</option>
-								    <option value="">Aissata</option>
-									<option value="">Maxime</option>
-									<option value="">Julien</option>
-									<option value="">Marie</option>
-								 
-								</select>
-						    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-md-4 control-label" for="Selectioner"></label>
-							<div class="col-md-8">
-							<?php
-								$db = mysqli_connect('localhost', 'root', '');
+				<div class="panel panel-default">
+					<!-- Default panel contents -->
+					    <div class="panel-heading">Liste de Clients</div>
+							<table class="table">
+								<tr>
+									<td><b> Nom</b></td>
+									<td> <b>Prenom</b></td>
+								</tr>	
+										<?php
+											$db = mysqli_connect('localhost', 'root', '');
 
-								// on sélectionne la base
-								mysqli_select_db($db,'sarltetra');
+											// on sélectionne la base
+											mysqli_select_db($db,'sarltetra');
 
-								// on crée la requête SQL
-								$sql = "SELECT * FROM Clients;";
+											// on crée la requête SQL
+											$sql = "SELECT * FROM Clients;";
 
-								// on envoie la requête
-								$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysql_error());
+											// on envoie la requête
+											$req = mysqli_query($db,$sql) or die('Erreur SQL !<br>'.$sql.'<br>'.mysql_error());
 
-							    while($data = mysqli_fetch_assoc($req))
-							    {
-									echo $data["Nom"]." ".$data["Prenom"]."</br>";
-								} 
-						    ?>														
-								<button id="Selectioner" name="Selectioner" class="btn btn-success"><a href="listefichier.php">selectioner</a></button>
-								<button id="" name="" class="btn btn-danger">annuler</button>
-							</div>
-					</div>
-			</fieldset>
-		</form>
+											while($data = mysqli_fetch_assoc($req))
+											{
+												echo "<tr>";
+												echo "<td>".$data["Nom"]."</td>";
+												echo "<td>".$data["Prenom"]." </td>";
+												echo "</td>";							
+											} 
+									    ?>	  
+							</table>									
+				</div>
+			</div>
+		</div>   
+	  
 	</body>
 </html>

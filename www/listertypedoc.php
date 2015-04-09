@@ -45,7 +45,7 @@
 								</table>
 								
 							</div>
-								<button id="Selectioner" name="Selectioner" class="btn btn-success"><a href="listefichier.php">Ajouter</a></button>	
+								
 			</div>
      </body>
 </html>
